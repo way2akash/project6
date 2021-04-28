@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="project6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <script  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.tiltedpage-scroll.js"></script>
+    <link rel="stylesheet" type="text/css" href="tiltedpage-scroll.css">
+
+</head>
+
+<body>
+    <div class="main">
+ <section class="header">
+       <div class="content-box">
+           <div class="menu">
+               <img src="project6logo.png">
+               <button type="button"><i class="fas fa-sign-in-alt"></i>  Login</button>
+           </div>
+           <div class="banner-text">
+               <h2>CREATIVE WEB DESIGN</h2>
+               <p>Welcome to page, This is my 6th project on HTML and CSS.</p>
+               <a href="#">About Us</a>
+           </div>
+       </div>
+  </section>
+                            <!------------------------------ service --------------------------->
+
+  <section class="service">
+
+      <div class="content-box">
+
+          <div class="container">
+              
+              <h1>Our Services</h1>
+              <div class="row services">
+
+                  <div class="col-md-3 text-center">
+                      <div class="icon">
+                        <i class="fa fa-renren"></i>
+                      </div>
+                      <h3>Brand <span>Activation</span></h3>
+                      <p>Bootstrap 5 is currently an Alpha release and should be treated as such! For details check out the Bootstrap 5 Alpha announcement.
+                    </p>
+                  </div>
+
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fa fa-renren"></i>
+                    </div>
+                    <h3>Employee <span>Activity</span></h3>
+                    <p>Bootstrap 5 is currently an Alpha release and should be treated as such! For details check out the Bootstrap 5 Alpha announcement.
+                  </p>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fa fa-renren"></i>
+                    </div>
+                    <h3>Event <span>Organizer</span></h3>
+                    <p>Bootstrap 5 is currently an Alpha release and should be treated as such! For details check out the Bootstrap 5 Alpha announcement.
+                  </p>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fa fa-renren"></i>
+                    </div>
+                    <h3>Video <span>Production</span></h3>
+                    <p>Bootstrap 5 is currently an Alpha release and should be treated as such! For details check out the Bootstrap 5 Alpha announcement.
+                  </p>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+                            <!--------------------------- feature -------------------------------->
+   <section class="feature">
+       <div class="content-box">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <h2>Features Are</h2>
+                       <ul>
+                        <li>Feature one</li>
+                        <li>Feature Two</li>
+                        <li>Feature Three</li>
+                        <li>Feature Four</li>
+                        <li>Feature Five</li>
+                        <li>Feature Six</li>
+                        <li>Feature Seven</li>
+                    </ul>
+                   </div>
+
+                   <div class="col-md-6">
+                       <img src="project6.jpg" class="img-fluid">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+                      <!--------------------- footer ---------------------->
+   <section class="footer">
+       <div class="content-box">
+           <div class="container">
+               <h1>Get In Touch</h1>
+               <div class="row">
+                   <div  class="col-md-6">
+                       <form class="contact-form">
+                           <div class="form-group">
+                               <input type="text" class="form-control" placeholder="Your Name">
+                           </div>
+                           <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Phone No.">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Id">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                       </form>
+                   </div>
+                   <div  class="col-md-6 contact-info">
+                       <div class="follow">
+                        <i class="fa fa-map-marker"></i><span>XYZ Road, Odisha</span>                           
+                       </div>
+                       <div class="follow">
+                        <i class="fa fa-map-marker"></i><span>123456789</span>                           
+                       </div>
+                       <div class="follow">
+                        <i class="fa fa-map-marker"></i><span>hello@web.com</span>                           
+                       </div>
+                       <div class="follow">
+                        <i class="fas fa-facebook"></i>
+                        <i class="fas fa-map-marker"></i>
+                        <i class="fas fa-map-marker"></i>
+                       </div>
+                   </div>
+
+               </div>
+               <hr>
+               <p class="copyright">Icons are not displayed something wrong.</p>
+           </div>
+       </div>
+
+   </section>
+   </div>
+   <script> $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });</script>
+</body>
+</html>
